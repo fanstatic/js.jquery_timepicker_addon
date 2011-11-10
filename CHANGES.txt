@@ -4,7 +4,7 @@ CHANGES
 0.9.8 (unreleased)
 ==================
 
-- Nothing changed yet.
+- Expose all i18n/l10n files as individual resources.
 
 
 0.9.7 (2011-11-08)
