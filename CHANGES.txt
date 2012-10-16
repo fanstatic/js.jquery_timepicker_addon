@@ -1,11 +1,14 @@
 CHANGES
 *******
 
-0.9.9 (unreleased)
+1.0.5 (2012-10-16)
 ==================
 
-- Nothing changed yet.
+- Update to 1.0.5
 
+- Add minified versions for all resources
+
+- Add timepicker_locales dictionary.
 
 0.9.8 (2011-12-12)
 ==================

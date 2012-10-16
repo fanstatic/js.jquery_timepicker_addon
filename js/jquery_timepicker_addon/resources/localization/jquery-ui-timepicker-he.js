@@ -2,7 +2,7 @@
 /* Written by Lior Lapid */
 (function($) {
 	$.timepicker.regional["he"] = {
-		timeOnlyTitle: "בחרית זמן",
+		timeOnlyTitle: "בחירת זמן",
 		timeText: "שעה",
 		hourText: "שעות",
 		minuteText: "דקות",
@@ -14,7 +14,8 @@
 		timeFormat: "hh:mm tt",
 		amNames: ['לפנה"צ', 'AM', 'A'],
 		pmNames: ['אחה"צ', 'PM', 'P'],
-		ampm: false
+		ampm: false,
+		isRTL: true
 	};
 	$.timepicker.setDefaults($.timepicker.regional["he"]);
 })(jQuery);
