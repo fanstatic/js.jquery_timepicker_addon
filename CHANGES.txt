@@ -10,6 +10,9 @@ CHANGES
 
 - Add timepicker_locales dictionary.
 
+- Only depend on js.jqueryui.ui_datepicker and js.jqueryui.ui_slider.
+  This avoids pulling in the complete jQuery UI when only parts are needed.
+
 0.9.8 (2011-12-12)
 ==================
 
