@@ -13,3 +13,14 @@ This requires integration between your web framework and ``fanstatic``,
 and making sure that the original resources (shipped in the ``resources``
 directory in ``js.jquery_timepicker_addon``) are published to some URL.
 
+
+Hacking
+=======
+
+To minify CSS and JS after updating to a newer jQuery-Timepicker-Addon
+version run::
+
+  python2.7 bootstrap.py
+  bin/buildout
+  bin/minify
+
