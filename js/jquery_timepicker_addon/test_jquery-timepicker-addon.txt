@@ -1,5 +1,5 @@
 How to use?
-===========
+***********
 
 
 You can import ``timepicker`` from ``js.jquery_timepicker_addon`` and ``need``
@@ -9,7 +9,7 @@ it where you want these resources to be included on a page::
   >>> timepicker.need()
 
 Locales
--------
+=======
 
 Also included are locales for the timepicker widget.
 

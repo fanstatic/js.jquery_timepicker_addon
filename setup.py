@@ -14,12 +14,11 @@ version = '1.2.dev0'
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
 
-long_description = (
-    read('README.txt')
-    + '\n' +
-    read('js', 'jquery_timepicker_addon', 'test_jquery-timepicker-addon.txt')
-    + '\n' +
-    read('CHANGES.txt'))
+long_description = '\n'.join(
+    [read('README.txt'),
+     read('CHANGES.txt'),
+     read('js', 'jquery_timepicker_addon', 'test_jquery-timepicker-addon.txt'),
+     ])
 
 setup(
     name='js.jquery_timepicker_addon',

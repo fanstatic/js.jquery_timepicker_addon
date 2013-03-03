@@ -1,6 +1,8 @@
 js.jquery_timepicker_addon
 **************************
 
+.. contents::
+
 Introduction
 ============
 
