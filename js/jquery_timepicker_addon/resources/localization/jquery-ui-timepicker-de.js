@@ -2,7 +2,7 @@
 /* Written by Marvin */
 (function($) {
 	$.timepicker.regional['de'] = {
-		timeOnlyTitle: 'Zeit Wählen',
+		timeOnlyTitle: 'Zeit wählen',
 		timeText: 'Zeit',
 		hourText: 'Stunde',
 		minuteText: 'Minute',
@@ -13,6 +13,7 @@
 		currentText: 'Jetzt',
 		closeText: 'Fertig',
 		timeFormat: 'HH:mm',
+		timeSuffix: '',
 		amNames: ['vorm.', 'AM', 'A'],
 		pmNames: ['nachm.', 'PM', 'P'],
 		isRTL: false

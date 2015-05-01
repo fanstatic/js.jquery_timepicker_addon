@@ -29,6 +29,12 @@ timepicker_af = fanstatic.Resource(
     minified='localization/jquery-ui-timepicker-af.min.js',
     depends=[timepicker])
 
+timepicker_am = fanstatic.Resource(
+    library,
+    'localization/jquery-ui-timepicker-am.js',
+    minified='localization/jquery-ui-timepicker-am.min.js',
+    depends=[timepicker])
+
 timepicker_bg = fanstatic.Resource(
     library,
     'localization/jquery-ui-timepicker-bg.js',
@@ -131,6 +137,18 @@ timepicker_ko = fanstatic.Resource(
     minified='localization/jquery-ui-timepicker-ko.min.js',
     depends=[timepicker])
 
+timepicker_lt = fanstatic.Resource(
+    library,
+    'localization/jquery-ui-timepicker-lt.js',
+    minified='localization/jquery-ui-timepicker-lt.min.js',
+    depends=[timepicker])
+
+timepicker_lv = fanstatic.Resource(
+    library,
+    'localization/jquery-ui-timepicker-lv.js',
+    minified='localization/jquery-ui-timepicker-lv.min.js',
+    depends=[timepicker])
+
 timepicker_nl = fanstatic.Resource(
     library,
     'localization/jquery-ui-timepicker-nl.js',
@@ -179,6 +197,24 @@ timepicker_sk = fanstatic.Resource(
     minified='localization/jquery-ui-timepicker-sk.min.js',
     depends=[timepicker])
 
+timepicker_sl = fanstatic.Resource(
+    library,
+    'localization/jquery-ui-timepicker-sl.js',
+    minified='localization/jquery-ui-timepicker-sl.min.js',
+    depends=[timepicker])
+
+timepicker_sr_RS = fanstatic.Resource(
+    library,
+    'localization/jquery-ui-timepicker-sr-RS.js',
+    minified='localization/jquery-ui-timepicker-sr-RS.min.js',
+    depends=[timepicker])
+
+timepicker_sr_YU = fanstatic.Resource(
+    library,
+    'localization/jquery-ui-timepicker-sr-YU.js',
+    minified='localization/jquery-ui-timepicker-sr-YU.min.js',
+    depends=[timepicker])
+
 timepicker_tr = fanstatic.Resource(
     library,
     'localization/jquery-ui-timepicker-tr.js',
@@ -200,6 +236,7 @@ timepicker_vi = fanstatic.Resource(
 
 timepicker_locales = {
     "af": timepicker_af,
+    "am": timepicker_am,
     "bg": timepicker_bg,
     "ca": timepicker_ca,
     "cs": timepicker_cs,
@@ -217,6 +254,8 @@ timepicker_locales = {
     "it": timepicker_it,
     "ja": timepicker_ja,
     "ko": timepicker_ko,
+    "lt": timepicker_lt,
+    "lv": timepicker_lv,
     "nl": timepicker_nl,
     "no": timepicker_no,
     "pl": timepicker_pl,
@@ -225,6 +264,9 @@ timepicker_locales = {
     "ro": timepicker_ro,
     "ru": timepicker_ru,
     "sk": timepicker_sk,
+    "sl": timepicker_sl,
+    "sr_RS": timepicker_sr_RS,
+    "sr_YU": timepicker_sr_YU,
     "tr": timepicker_tr,
     "uk": timepicker_uk,
     "vi": timepicker_vi,
